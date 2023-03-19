@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width initial-scale=1.0 user-scalable=no"
+    />
+    <title>Sudoku</title>
+    <link rel="icon" href="download.jpg" />
+
+    <link rel="stylesheet" href="sudoku.css" />
+  </head>
+  <h1 id="title-tag" style="color: aliceblue">Sudoku!</h1>
+
+  <body>
+    <h2 style="color: red">
+      ERROR LIMIT 20
+      <div id="errors">0</div>
+    </h2>
+    <div id="timer">TIMER:<span id="timers"></span></div>
+
+    <button onclick="{location.reload()}">RESTART</button>
+
+    <!-- 9x9 board -->
+    <div id="board"></div>
+    <br />
+
+    <div id="digits"></div>
+    <script src="sudoku.js"></script>
+  </body>
+  <footer style="color: white; margin-top: 10px"></footer>
+</html>

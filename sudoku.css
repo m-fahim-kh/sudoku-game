@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color:rgb(136, 141, 144); 
+   
+}
+#timer{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+#title-tag:hover{
+  color: black;
+}
+
+#errors {
+  color: rgb(232, 17, 17);
+  margin-top: 5px;
+}
+
+#board {
+  width: 450px;
+  height: 450px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  background-color: antiquewhite;
+  width: 48px;
+  height: 48px;
+  border: 1px solid lightgray;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile:hover{
+    background-color: green;
+}
+
+#digits {
+  width: 450px;
+  height: 50px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number {
+  width: 44px;
+  height: 44px;
+  border: 1px solid black;
+  margin: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color :bisque;
+}
+
+.number:hover{
+  background-color: rgb(83, 96, 92);
+}
+
+.number-selected {
+  background-color: gray;
+}
+
+.tile-start {
+  background-color: whitesmoke;
+}
+
+.horizontal-line {
+  border-bottom: 1px solid black;
+}
+
+.vertical-line {
+  border-right: 1px solid black;
+}
+
+div{
+  border-radius: 5%;
+}
+
+button{
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
